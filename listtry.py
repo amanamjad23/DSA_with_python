@@ -1,2 +1,3 @@
 list=[1,[5,6],3,4]
-print(list[1][0])
+list[1][:]=[1.5,2.5]
+print(list[:])
