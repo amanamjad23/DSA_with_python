@@ -1,0 +1,21 @@
+from collections import deque
+
+queue = deque()
+
+queue.append(5)
+queue.append(3)
+print(queue.popleft())
+queue.append(2)
+queue.append(8)
+print(queue.popleft())
+print(queue.popleft())
+queue.append(9)
+queue.append(1)
+print(queue.popleft())
+queue.append(7)
+queue.append(6)
+print(queue.popleft())
+print(queue.popleft())
+queue.append(4)
+print(queue.popleft())
+print(queue.popleft())
